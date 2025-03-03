@@ -11,7 +11,7 @@ public class ApiSpringbootApplication {
 
 	@GetMapping("/hello")
 	public String hello(){
-		return "springboot rest-api" ;
+		return "springboot rest-api testing" ;
 	}
 
 	public static void main(String[] args) {
