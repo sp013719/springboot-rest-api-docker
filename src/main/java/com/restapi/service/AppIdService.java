@@ -1,9 +1,11 @@
 package com.restapi.service;
 
+import lombok.Getter;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
 
+@Getter
 @Service
 public class AppIdService {
 
@@ -11,9 +13,5 @@ public class AppIdService {
 
     public AppIdService() {
         this.appId = UUID.randomUUID().toString();
-    }
-
-    public String getAppId() {
-        return appId;
     }
 }
