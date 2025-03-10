@@ -1,4 +1,4 @@
-package com.restapi;
+package com.restapi.controller;
 
 import com.restapi.service.AppIdService;
 import org.springframework.web.bind.annotation.GetMapping;

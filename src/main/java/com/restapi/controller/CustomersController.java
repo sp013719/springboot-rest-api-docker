@@ -1,4 +1,4 @@
-package com.restapi;
+package com.restapi.controller;
 
 import com.restapi.request.Customer;
 import org.springframework.data.redis.core.RedisTemplate;
